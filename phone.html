@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>phone-search</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+
+</head>
+<body>
+    <h1>PHONE SEARCH</h1>
+    <section id="displayDetailsContainer">
+
+    </section>
+
+    <section class="d-flex justify-content-center" id="search-section">
+        <div  class="input-group mb-3 w-50">
+            <input id="userSearch" style="text-align: center;" type="text" class="form-control" placeholder="Search Phone" aria-label="Recipient's username" aria-describedby="basic-addon2">
+            <div class="input-group-append">
+              <button onclick="loadPhone()" class="btn btn-success" type="button">Search</button>
+            </div>
+          </div>
+    </section>
+
+    <section id="Container">
+        <div id="searchContainer" class="row row-cols-1 row-cols-md-4 g-3">
+
+        </div>
+
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+     integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <script src="js/phone.js"></script>
+<img style="width: 400px; height: 400px;" src="images-kv-1.png.webp" alt="" srcset="">
+</body>
+</html>
+
